@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>SeqAfford</title>
+  <title>NLPrompt</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,84 +52,95 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title"><span style="color: #7faf3f;">SeqAfford</span>: <span style="color: #7faf3f;">Seq</span>uential 3D <span style="color: #7faf3f;">Afford</span>ance Reasoning via Multimodal Large Language Model</h1>
+            <h1 class="title is-1 publication-title">
+              <span style="background: -webkit-linear-gradient(left, rgb(170, 102, 153), rgb(102, 136, 187)); -webkit-background-clip: text; color: transparent;">NLPrompt</span>
+              :
+              <span style="background : -webkit-linear-gradient(left, rgb(170, 102, 153), rgb(102, 136, 187)); -webkit-background-clip: text; color: transparent;">N</span>oise-<span style="background: -webkit-linear-gradient(left, rgb(170, 102, 153), rgb(102, 136, 187)); -webkit-background-clip: text; color: transparent;">L</span>abel
+              <span style="background: -webkit-linear-gradient(left, rgb(170, 102, 153), rgb(102, 136, 187)); -webkit-background-clip: text; color: transparent;">Prompt</span> Learning<br> for Vision-Language Models
+            </h1>
+            <h2 class="subtitle is-3 has-text-centered"
+              style="color: #cc3434; font-weight: bold; margin-top: 0.5em;">
+              &#127942; CVPR 2025 Highlight
+            </h2>
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://seq-afford.github.io/" target="_blank">Chunlin Yu</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="https://seq-afford.github.io/" target="_blank">Hanqing Wang</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://seq-afford.github.io/" target="_blank">Ye Shi</a><sup></sup>,</span>
-                    <span class="author-block">
-                      <a href="https://seq-afford.github.io/" target="_blank">Haoyang Luo</a><sup></sup>,</span>
-                      <span class="author-block">
-                      <a href="https://seq-afford.github.io/" target="_blank">Sibei Yang</a><sup></sup>,</span>
-                        <span class="author-block">
-                          <a href="https://seq-afford.github.io/" target="_blank">Jingyi Yu</a><sup></sup>,</span>
-                          <span class="author-block">
-                            <a href="https://seq-afford.github.io/" target="_blank">Jingya Wang</a><sup>#</sup>,</span>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">ShanghaiTech University, Shanghai, China<br><span style="color: #cc3434;">CVPR 2025</span></span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                    <span class="eql-cntrb"><small><br><sup>+</sup>Indicates Corresponding Author</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2412.01550" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/hq-King/SeqAfford" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
+                <a href="https://panbikang.github.io/home/">Bikang Pan</a><sup>1,†</sup>,
+              </span>
+              <span class="author-block">
+                <a>Qun Li</a><sup>1,†</sup>,
+              </span>
+              <span class="author-block">
+                <a>Xiaoying Tang</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a>Wei Huang</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a>Zhen Fang</a><sup>4</sup>,
+              </span>
+              <span class="author-block">
+                <a>Feng Liu</a><sup>5</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://faculty.sist.shanghaitech.edu.cn/faculty/wangjingya/">Jingya Wang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a>Jingyi Yu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://shiye21.github.io/">Ye Shi</a><sup>1,*</sup>
+              </span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>ShanghaiTech University, Shanghai, China</span><br>
+              <span class="author-block"><sup>2</sup>The Chinese University of Hong Kong, Shenzhen, China</span><br>
+              <span class="author-block"><sup>3</sup>RIKEN Center for Advanced Intelligence Project, Japan</span><br>
+              <span class="author-block"><sup>4</sup>University of Technology Sydney, Australia</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>5</sup>University of Melbourne, Australia</span><br>
+              <!-- <span class="author-block" style="color: #cc3434; font-weight: bold; font-size: 1.5em;">&#127942; CVPR 2025 Highlight</span><br> -->
+              <span class="author-block" style="font-size: 0.8em;"><sup>†</sup>Indicates Equal Contribution</span>&nbsp;&nbsp;
+              <span class="author-block" style="font-size: 0.8em;"><sup>*</sup>Indicates Corresponding Author</span>
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Pan_NLPrompt_Noise-Label_Prompt_Learning_for_Vision-Language_Models_CVPR_2025_paper.pdf" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2412.01256" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="ai ai-arxiv"></i>
                     </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/qunovo/NLPrompt" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://seq-afford.github.io/" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>Dataset</span>
-                </a>
-              </span>
+                  <a href=""
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  
 
 
 <!-- Teaser video-->
@@ -153,12 +164,12 @@
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Sequential 3D Affordance Reasoning </h2>
+          <!-- <h2 class="title is-3">A Simple and Effective Framework for Learning with Noisy Labels in VLMs</h2> -->
          <p>
-              <img src="static\images\fig1.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+              <img src="static\images\5.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
             </p>
             <p>
-              We introduce SeqAfford, a Multi-Modal Language Model (MLLM) capable of serialized affordance inference implied in human instructions: 1) Single Affordance Reasoning; 2) Sequential Affordance Reasoning; 3) Sequential Affordance Reasoning with Multiple Objects
+              We addressed the critical challenge of noisy labels in prompt learning for vision-language foundation models by introducing PromptMAE and PromptOT.
             </p>
         </div>
       </div>
@@ -175,7 +186,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            3D affordance segmentation aims to link human instructions to touchable regions of 3D objects for embodied manipulations. Existing efforts typically adhere to single-object, single-affordance paradigms, where each affordance type or explicit instruction strictly corresponds to a specific affordance region and are unable to handle long-horizon tasks. Such a paradigm cannot actively reason about complex user intentions that often imply sequential affordances. In this paper, we introduce the Sequential 3D Affordance Reasoning task, which extends the traditional paradigm by reasoning from cumbersome user intentions and then decomposing them into a series of segmentation maps. Toward this, we construct the first instruction-based affordance segmentation benchmark that includes reasoning over both single and sequential affordances, comprising 180K instruction-point cloud pairs. Based on the benchmark, we propose our model, SeqAfford, to unlock the 3D multi-modal large language model with additional affordance segmentation abilities, which ensures reasoning with world knowledge and fine-grained affordance grounding in a cohesive framework. We further introduce a multi-granular language-point integration module to endow 3D dense prediction. Extensive experimental evaluations show that our model excels over well-established methods and exhibits open-world generalization with sequential reasoning abilities. 
+            The emergence of vision-language foundation models, such as CLIP, has revolutionized image-text representation, enabling a broad range of applications via prompt learning. Despite its promise, real-world datasets often contain noisy labels that can degrade prompt learning performance. In this paper, we demonstrate that using mean absolute error (MAE) loss in prompt learning, named PromptMAE, significantly enhances robustness against noisy labels while maintaining high accuracy. Though MAE is straightforward and recognized for its robustness, it is rarely used in noisy-label learning due to its slow convergence and poor performance outside prompt learning scenarios. To elucidate the robustness of PromptMAE, we leverage feature learning theory to show that MAE can suppress the influence of noisy samples, thereby improving the signal-to-noise ratio and enhancing overall robustness. Additionally, we introduce PromptOT, a prompt-based optimal transport data purification method to enhance the robustness further. PromptOT employs text features in vision-language models as prototypes to construct an optimal transportation matrix. This matrix effectively partitions datasets into clean and noisy subsets, allowing for the application of cross-entropy loss to the clean subset and MAE loss to the noisy subset. Our Noise-Label Prompt Learning method, named NLPrompt, offers a simple and efficient approach that leverages the expressive representations and precise alignment capabilities of vision-language models for robust prompt learning. We validate NLPrompt through extensive experiments across various noise settings, demonstrating significant performance improvements. 
           </p>
         </div>
       </div>
@@ -184,24 +195,48 @@
 </section>
 <!-- End paper abstract -->
 
-<section class="section hero is-small">
+<!-- Youtube video -->
+<section class="hero is-small is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3 has-text-centered">Video (coming soon)</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+<section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Preparing the Instructions. </h2>
-         <p>
-              <img src="static\images\FIG2.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
-            </p>
-            <p>
-              To better utilize the world knowledge of GPT4, We prompt GPT-4o to generate diverse instructions based on 4 types of system prompts containing different modalities as input. Instructions are generated based on input prompts with modalities from a) purely textual affordance type, object name; b) the mesh-rendered image of the object; c) the mesh-rendered image and HOI images that reveal affordances of the object; d) the mesh-rendered image and textual description of the scenario.            </p>
+          <h2 class="title is-3 has-text-centered">Motivation </h2>
+          <p>
+            In the realm of noisy label learning, mean absolute error (MAE) has been identified as a robust loss function within the traditional training paradigm. However, MAE often suffers from slow convergence and poor performance during training, making it seldom employed as a classification loss in noise-label learning. <br>Nevertheless, our investigation reveals an interesting phenomenon: employing MAE loss in Prompt learning (PromptMAE) notably enhances robustness while maintaining high accuracy compared to traditional cross-entropy loss. As shown in Figure, MAE exhibits strong accuracy and fast convergence even in the presence of substantial noise. 
+          </p>
+          <p>
+            <img src="static\images\6.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+          </p>
+          <p>
+            To elucidate PromptMAE's robustness, we leverage feature learning theory to demonstrate that it can suppress the influence of noisy samples, thereby enhancing the robustness of prompt learning in vision–language models.
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section hero is-small">
+<!-- <section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full">
@@ -244,19 +279,60 @@
             <p>
               We propose an interaction module between [SEG] tokens from LLM and point features from the 3D vision encoder, to synergize both reasoning and segmentation in a cohesive framework. This module consists of the multi-granular feature propagation process, and the point-language integration stage.    </div>
   </div>
-</section>
+</section> -->
 
 <section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-full">
         <div class="content">
-          <h2 class="title is-3">Qualitative results </h2>
+          <h2 class="title is-3 has-text-centered">Experiments Results </h2>
+          <h3 class="subtitle is-5 " style="margin-top: 0.5em;">
+            On the synthetic noisy datasets
+          </h3>
           <p style="text-align: center;">
-            <img src="static\images\fig.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            <img src="static\images\1.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
           </p>
           <p>
-            SeqAfford understands human instruction and accurately segments the target affordance.          </p>
+            For the synthetic noisy dataset, the accuracy of the image classification task under different noise levels is shown in the table below, demonstrating the effectiveness and superiority of NLPrompt in addressing the noisy label problem in prompt learning.          
+          </p>
+          <h3 class="subtitle is-5 " style="margin-top: 0.5em;">
+            On the real-world noisy dataset
+          </h3>
+          <p style="text-align: center;">
+            <img src="static\images\2.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 50%; height: auto;" />
+          </p>
+          <p>
+            The results on the real-world noisy dataset Food101N are shown in the table below, where NLPrompt outperforms all the baseline methods.          
+          </p>
+          <h3 class="subtitle is-5 " style="margin-top: 0.5em;">
+            Generalization of NLPrompt
+          </h3>
+          <p style="text-align: center;">
+            <img src="static\images\3.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 60%; height: auto;" />
+          </p>
+          <p>
+            Our method NLPrompt is effective not only for CoOp but also for other prompt learning methods, such as VPT, MaPLe, and PromptSRC, which are subsequent methods of CoOp. NLPrompt significantly improves the robustness of various prompt learning methods in the face of noisy label problems, which verifies the strong generalization ability of NLPrompt.          
+          </p>
+          <h3 class="subtitle is-5 " style="margin-top: 0.5em;">
+            Ablation Studies
+          </h3>
+          <p>To evaluate the effectiveness of each component of our method, we conduct ablation studies on the Flowers102 dataset. </p>
+          <p style="text-align: center;">
+            <img src="static\images\4.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 60%; height: auto;" />
+          </p>
+          <p>
+            The experimental design is as follows:  <br>
+            (a) Use CE loss for all data; <br>
+            (b) Use MAE loss for all data; <br>
+            (c) Use random initialization prototype instead of CLIP text feature as initialization; <br>
+            (d) Use CE loss for clean data only after removing noisy data; <br>
+            (e) Use MAE loss for noisy data only after removing clean data.  <br>
+
+            The average results show that (b) outperforms (a), validating the effectiveness of our PromptMAE. 
+            Moreover, the average results show that (d) outperforms (a), and (e) outperforms (b), further validating the effectiveness of PromptOT in the data purification process. Additionally, the comparison between (c) and NLPrompt highlights the importance of text feature initialization in our method. <br>
+            Among all methods, our NLPrompt achieves the best performance, with significant improvements over other baselines, further validating the effectiveness of each component.           
+          </p>
         </div>
       </div>
     </div>
@@ -340,13 +416,13 @@
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{yu2025seqafford,
-  title={Seqafford: Sequential 3d affordance reasoning via multimodal large language model},
-  author={Yu, Chunlin and Wang, Hanqing and Shi, Ye and Luo, Haoyang and Yang, Sibei and Yu, Jingyi and Wang, Jingya},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
-  pages={1691--1701},
-  year={2025}
+      <h2 class="title">Citation</h2>
+      <pre><code>@inproceedings{pan2025nlprompt,
+    title={NLPrompt: Noise-Label Prompt Learning for Vision-Language Models},
+    author={Pan, Bikang and Li, Qun and Tang, Xiaoying and Huang, Wei and Fang, Zhen and Liu, Feng and Wang, Jingya and Yu, Jingyi and Shi, Ye},
+    booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+    pages={19963--19973},
+    year={2025}
 }
 </code></pre>
     </div>
@@ -360,10 +436,8 @@
       <div class="column is-8">
         <div class="content">
 
-          <p>
+          <p style="font-size:0.8rem;">
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
         </div>
